@@ -1,7 +1,7 @@
 pipeline {
     agent any
     triggers {
-        pollSCM('H/15 * * * *') // Poll every 15 minutes (cron syntax)
+        pollSCM('H/1 * * * *') // Poll every 1 minute (cron syntax)
     }
     stages {
         stage('Build') {

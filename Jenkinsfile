@@ -7,6 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project'
+                echo 'Hi this is testinf for scm within 1 minute'
             }
         }
     }
